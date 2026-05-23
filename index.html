@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAR-B-Q-SAUCE</title>
+    <style>
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  * {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+    @font-face {
+        font-family: "got";
+        src: url("./ASSETS/LeagueGothic-Regular-VariableFont_wdth.ttf");
+      }
+
+      @keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 10s linear infinite;
+}
+
+</style>
+       <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+       <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+</head>
+<body>
+    <div id="main" class="w-[100vw]">
+        <div id="page1" class="w-[100vw] h-[105vh] bg-[#db4439]  relative">
+            <nav class="w-[100%] p-[30px] h-[18vh]  flex items-center justify-between">
+                <div class="logo min-[511px]:w-[20vw]  min-[320px]:w-[28vw]   min-[700px]:w-[10vw] h-[100%] bg-[url(ASSETS/Untitled.png)] bg-[position:center_42.5%] bg-cover bg-[transparent]">
+
+                </div>
+
+                <div class="links min-[320px]:hidden min-[768px]:flex  flex items-center gap-[70px] [&_a]:text-[25px] [&_a]:font-medium [&_a]:font-[got] [&_a]:text-[#EEEAD9]">
+                    <a href="">SHOP</a>
+                    <a href="">MENU</a>
+                    <a href="">OUR ROOTS</a>
+                    <a href="">VISIT</a>
+                    <a href="">PRESS</a>
+                </div>
+
+                <div class="shop-btn  w-[11.5vw] min-[768px]:w-[11.5vw] flex items-center justify-center rounded-[40px] min-[760px]:h-[95%] shadow-[-6px_5px_1px_rgba(0,0,0,0.5)] bg-[#fff] min-[320px]:w-[27vw] min-[320px]:h-[50%]">
+                    <h4 class="font-[got] text-[22px] font-semibold text-[#db4439]" >SHOP SAUCES</h4>
+                </div>
+                <div class="nav-icn absolute w-[3vw] h-[3vw] [&_i]:text-[1.7vw] right-[15vw] [&_i]:text-[#ffff] [&_i]:font-extralight ">
+                    <i class="ri-shopping-cart-2-line "></i>
+                </div>
+            </nav>
+            <div class="hero-txt min-[768px]:w-[53vw] min-[768px]:h-[55vh] min-[768px]:bg-[] min-[768px]:ml-[4vw] min-[768px]:left-[26%] min-[768px]:mt-[2vw] min-[320px]:absolute min-[320px]:w-[65vw] min-[320px]:left-[50%]  min-[320px]:translate-x-[-50%] min-[320px]:h-[35vh] min-[320px]:flex min-[320px]:flex-col min-[320px]:justify-center min-[320px]:items-center min-[768px]:items-start min-[320px]:gap-[1vw]   ">
+                <h1 class="font-[got] min-[768px]:text-[9vw] text-[#F3E5DA] min-[768px]:leading-[8vw] min-[768px]:font-[600] min-[768px]:tracking-[3px] min-[320px]:text-[15vw] min-[320px]:leading-[18vw] min-[320px]:whitespace-nowrap min-[320px]:leading">SAUCE  MADE <br> WITH LOVE IN <br> KANAS CITY</h1>
+                <h4 class="font-[got] min-[768px]:text-[1vw] min-[768px]:text-[2.2vw] text-[#F3E5DA] min-[768px]:leading-[8vw] min-[768px]:font-[600] min-[768px]:tracking-[3px]">SINCE 1970...SOMETHING.</h4>
+            </div>
+           <div class="heroimg 
+            bg-[url(ASSETS/IMG_20260523_021158_402.png)] bg-center bg-cover absolute
+            
+            /* =========================================
+               1. MOBILE STYLING (320px se 767px tak)
+               ========================================= */
+            min-[320px]:top-[55%] 
+            min-[320px]:left-[50%] 
+            min-[320px]:translate-x-[-50%] 
+            min-[320px]:h-[30vh] 
+            min-[320px]:w-[45vw]
+            min-[320px]:rotate-[5deg]
+
+            /* =========================================
+               2. DESKTOP STYLING (768px aur usse upar)
+               ========================================= */
+            min-[768px]:w-[35vw] 
+            min-[768px]:h-[65vh] 
+            min-[768px]:bg-[#F3E5DA] 
+            min-[768px]:top-[20vh] 
+            min-[768px]:right-[5vw] 
+            min-[768px]:left-auto          /* FIX: Mobile ke left-50% ko reset kiya */
+            min-[768px]:translate-x-0      /* FIX: Mobile ke translate-x-[-50%] ko reset kiya */
+            min-[768px]:rotate-[5deg]">    <!-- BONUS FIX: rotate-z-5 ki jagah rotate-[5deg] use karo -->
+</div>
+         <div class="ribon w-[100vw] overflow-hidden h-[7vw] bg-[#fff] absolute left-[0%] bottom-[0%] flex items-center">
+               
+                <div class="elm-container flex items-center gap-[40px] shrink-0 animate-marquee pr-[40px] [&_h1]:text-[#DB4439] [&_h1]:font-[got] [&_h1]:font-[500] [&_h1]:text-[3vw] [&_h1]:whitespace-nowrap">  
+                  
+                    <h1>BRING THE HEAT HOME</h1>
+                    <h1>BBQ SAUCE COMING IN HOT</h1>
+                    <h1>MADE FROM SPICY ELEMENTS</h1>
+                    <h1>BRING THE HEAT HOME</h1>
+                    <h1>BBQ SAUCE COMING IN HOT</h1>
+                    
+                    
+                    <h1>BRING THE HEAT HOME</h1>
+                    <h1>BBQ SAUCE COMING IN HOT</h1>
+                    <h1>MADE FROM SPICY ELEMENTS</h1>
+                    <h1>BRING THE HEAT HOME</h1>
+                    <h1>BBQ SAUCE COMING IN HOT</h1>
+                </div>
+            </div>
+        </div>
+        <div id="page2" class="w-[100vw] h-[100vh] bg-[#fff] flex relative">
+          <div class="p2-left relative w-[50%] h-[100%] bg-[#772821] flex items-center justify-center [&_img]:w-[80%] [&_img]:h-[65%] [&_img]:object-contain [&_img]:object-center">
+            <img src="./ASSETS/69690-removebg-preview.png" alt="">
+            <div class="sweet absolute  min-[768px]:left-[-14%] min-[768px]:translate-x-0 min-[768px]:top-[51%] text-[18vw] min-[768px]:h-[1vw] font-[got] font-[600] min-[768px]:tracking-[2px] text-[#C5212A] leading-[0.2vw] min-[768px]:rotate-[-90deg] min-[320px]:rotate-[0deg] min-[320px]:bottom-[12%] min-[320px]:left-[50%] min-[320px]:translate-x-[-50%] ">
+              <h1>SWEET</h1>
+            </div>
+             <div class="tangy  min-[768px]:translate-x-0 absolute  min-[768px]:right-[-11%]  min-[768px]:top-[49%]  text-[18vw]  min-[768px]:h-[1vw] font-[600] font-[got] min-[768px]:tracking-[2px] text-[#C5212A] leading-[0.2vw]  min-[768px]:rotate-z-90 min-[320px]:rotate-z-0 min-[320px]:top-[13%] min-[320px]:left-[50%] min-[320px]:translate-x-[-50%] ">
+              <h1 >TANGY</h1>
+            </div>
+          </div>
+          <div class="p2-right overflow-hidden w-[50%] h-[100%] bg-[#F1E7DB] flex items-center justify-center">
+            <div class="rtxt min-[768px]:w-[80%]  min-[320px]:h-[100%]  min-[320px]:bg-[transparent]  min-[320px]:w-[80%] h-[70%] bg-[transparent] flex flex-col min-[768px]:items-start justify-center  min-[320px]:items-center">
+              <h1 class=" min-[320px]:text-[12vw]   min-[320px]:whitespace-nowrap  min-[320px]:leading-[15vw] min-[768px]:text-[9vw] font-[got] text-[#DB4439] min-[768px]:leading-[7.6vw] font-[600]">THE MAGIC OF <br>JONES BBQ IN <br> YOUR HOME</h1>
+              <h5 class=" min-[320px]:text-[3vw] min-[320px]:w-[100%] min-[320px]:text-centerw-[85%] mt-[2.2vw] ml-[0.5vw] min-[768px]:text-[1.3vw] font-[got]  font-[400]">The jones family has made their sauce from scratch daily for over 50 years. For the first time ever, you can bring that flavour to a grill near you.</h5>
+              <div class="sos min-[320px]:w-[17vw] min-[320px]:text-[1.5vw] min-[320px]:mt-[5vw] bg-[#DB4439] rounded-[30px] mt-[3vw] ml-[0.5vw]  min-[768px]:w-[9vw] min-[768px]:h-[3vw] p-[20px] flex items-center justify-center text-[#fff] font-[montserrat] font-[500] min-[768px]:text-[0.8vw] whitespace-nowrap shadow-[-5px_4px_1px_rgba(0,0,0,0.75)]">
+                <h3>Shop Our Sauces</h3>
+              </div>
+            </div>
+          </div>
+
+        </div>
+       <div id="page3" class="w-[100vw] relative h-[10vh] bg-transparent">
+ 
+  <div class="foot-rb w-full h-full bg-[#fff] overflow-hidden flex items-center">
+    
+    
+    <div class="ftrb-container h-full flex items-center justify-center animate-marquee gap-[40px] w-max flex-shrink-0 pr-[40px] [&_h1]:text-[#DB4439] [&_h1]:font-[got] [&_h1]:font-[500] [&_h1]:text-[2.5vw] [&_h1]:whitespace-nowrap">
+      
+     
+      <h1>FEAST</h1>
+      <h1>REFINERY29</h1>
+      <h1>EATER</h1>
+      <h1>SPICY</h1>
+      <h1>WSJ</h1>
+      <h1>BAR-B-Q</h1>
+
+    
+      <h1>FEAST</h1>
+      <h1>REFINERY29</h1>
+      <h1>EATER</h1>
+      <h1>SPICY</h1>
+      <h1>WSJ</h1>
+      <h1>BAR-B-Q</h1>
+
+     
+      <h1>FEAST</h1>
+      <h1>REFINERY29</h1>
+      <h1>EATER</h1>
+      <h1>SPICY</h1>
+      <h1>WSJ</h1>
+      <h1>BAR-B-Q</h1>
+
+    
+      <h1>FEAST</h1>
+      <h1>REFINERY29</h1>
+      <h1>EATER</h1>
+      <h1>SPICY</h1>
+      <h1>WSJ</h1>
+      <h1>BAR-B-Q</h1>
+      
+    </div>
+  </div>
+</div>
+    </div> 
+</body>
+</html>
